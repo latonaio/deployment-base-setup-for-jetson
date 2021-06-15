@@ -1,29 +1,29 @@
-## JetsonをセットアップするためのベースをPCでセットアップする手順
+# JetsonをセットアップするためのベースをPCでセットアップする手順
 
-準備
+## 準備
 
-以下、準備するものです。
-・UbuntuがインストールされたPC
+- UbuntuがインストールされたPC
 
-セットアップ手順
+## セットアップ手順
 
-## Ubuntu上にNVIDIA SDK Managerをインストールする
+### Ubuntu上にNVIDIA SDK Managerをインストール
 Jetsonの開発環境について
+
 こちらのダウンロードセンターに、NVIDIA SDK Managerのダウンロードリンクがあります。
 [Jetson Download Center – NVIDIA Developer] (https://developer.nvidia.com/embedded/downloads)
 上記からダウンロードしたdebパッケージをUbuntuへインストールします。
 
-1.ubuntu上でterminalを立ち上げ、以下のコマンドを実行します。
+1. ubuntu上でterminalを立ち上げ、以下のコマンドを実行します。
 
 ```
  wget https://developer.nvidia.com/embedded/dlc/nv-sdk-manager
 
 ```
-2.生成されたnv-sdk-managerファイルは、debパッケージとなっており、以下のコマンドでインストールできます。
+2. 生成されたnv-sdk-managerファイルは、debパッケージとなっており、以下のコマンドでインストールできます。
 ```
  sudo dpkg -i ./nv-sdk-manager
 ```
-3.  ライブラリが不足するケースがあるため、以下の操作を行います。以下コマンドで不足するライブラリをインストールします。
+3.  不足しているライブラリをインストールします。
 
 ```
 sudo apt install libgconf-2-4 libcanberra-gtk-module
@@ -35,13 +35,14 @@ sudo apt install libgconf-2-4 libcanberra-gtk-module
 sudo dpkg -i ./nv-sdk-manager
 ```
 
-## 以上の操作でUbuntuデスクトップからSDK Managerを起動できるようになります。
+### UbuntuデスクトップからSDK Managerを起動
 
 1.	Ubuntu上でNVIDIA SDK Managerを起動する。
-   1. GUI画面上でSDK Manager を起動します。画面左下の、点が9個（3×3）で並んでいるアプリボタンをタップすると各アプリを検索することができます。
 
-   2. 検索窓から「SDK Manager」を検索することができます。
+2. GUI画面上でSDK Manager を起動します。画面左下の、点が9個（3×3）で並んでいるアプリボタンをタップすると各アプリを検索することができます。
+
+3. 検索窓から「SDK Manager」を検索することができます。
    
-   3. 起動します。
+4. 起動します。
    
   
