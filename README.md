@@ -10,7 +10,9 @@
 Jetsonの開発環境について
 
 こちらのダウンロードセンターに、NVIDIA SDK Managerのダウンロードリンクがあります。
-[Jetson Download Center – NVIDIA Developer] (https://developer.nvidia.com/embedded/downloads)
+
+- [Jetson Download Center – NVIDIA Developer](https://developer.nvidia.com/embedded/downloads)
+
 上記からダウンロードしたdebパッケージをUbuntuへインストールします。
 
 1. ubuntu上でterminalを立ち上げ、以下のコマンドを実行します。
