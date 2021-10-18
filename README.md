@@ -35,7 +35,7 @@ sudo apt install libgconf-2-4 libcanberra-gtk-module
 sudo dpkg -i ./nv-sdk-manager
 ```
 
-### UbuntuデスクトップからSDK Managerを起動する。
+### UbuntuデスクトップからSDK Managerを起動する
 以下の操作で、UbuntuデスクトップからSDK Managerを起動できるようになります。
 
 1.	Ubuntu上でNVIDIA SDK Managerを起動する。
